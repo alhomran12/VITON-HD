@@ -4,7 +4,8 @@ import os
 import torch
 from torch import nn
 from torch.nn import functional as F
-import torchgeometry as tgm
+import kornia as tgm
+
 
 from datasets import VITONDataset, VITONDataLoader
 from networks import SegGenerator, GMM, ALIASGenerator
